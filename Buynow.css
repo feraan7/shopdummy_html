@@ -1,0 +1,88 @@
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f5f5f5;
+    }
+
+    /* HEADER */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #111;
+      color: white;
+      padding: 15px 40px;
+    }
+
+    .header a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* MAIN CONTAINER */
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+    }
+
+    /* CARD */
+    .buy-card {
+      display: flex;
+      gap: 40px;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    /* IMAGE */
+    .buy-card img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    /* DETAILS */
+    .details {
+      max-width: 300px;
+    }
+
+    .details h2 {
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 20px;
+      color: green;
+      margin: 10px 0;
+    }
+
+    /* FORM */
+    .details input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .details button {
+      width: 100%;
+      padding: 12px;
+      background: black;
+      color: white;
+      border: none;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    .details button:hover {
+      background: #333;
+    }
+
+  

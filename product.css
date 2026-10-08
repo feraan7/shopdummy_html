@@ -1,0 +1,116 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100v;
+  
+}
+
+.header {
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+  background: #111;
+  color: white;
+  padding: 15px 40px; 
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navlink {
+  
+  display: flex;
+  gap: 25px;
+}
+
+.navlink a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+} 
+.product{
+    text-align: center;
+    padding: 60px 80px;
+}
+
+.product{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 25px;
+  justify-content: center;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 2px 4px 12px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 250px;   
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.card button {
+  padding: 8px 18px;
+  margin-top: 10px;
+  font-size: 14px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #111;
+  color: #ddd;
+  padding: 25px 60px;
+  margin-top: auto; 
+}
+
+.footer div {
+  width: 30%;
+}
+
+.footer h3 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+li a {
+  color: rgb(250, 250, 253);
+  text-decoration: none;
+  font-size: 14px;}
